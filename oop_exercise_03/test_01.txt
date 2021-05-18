@@ -1,0 +1,34 @@
+Input:
+add
+o
+4 4 4
+size
+print
+0
+all_area
+
+output:
+1
+Coordinates:
+Octagon coordinates:
+(8, 4)
+
+(6.82843, 6.82843)
+
+(4, 8)
+
+(1.17157, 6.82843)
+
+(0, 4)
+
+(1.17157, 1.17157)
+
+(4, 0)
+
+(6.82843, 1.17157)
+
+Center:
+(4, 4)
+Area:
+45.2548
+Area of all figures: 45.2548

@@ -1,0 +1,71 @@
+input:
+add
+s
+0 0 6 6
+print_all
+add
+t
+0 0 0 3 3 0
+print_all
+size
+delete
+0
+print
+0
+exit
+
+output:
+0 figure
+Square coordinates:
+(0, 0)
+
+(0, 6)
+
+(6, 6)
+
+(6, 0)
+
+
+Center:
+(3, 3)
+Area:
+36
+
+0 figure
+Square coordinates:
+(0, 0)
+
+(0, 6)
+
+(6, 6)
+
+(6, 0)
+
+
+Center:
+(3, 3)
+Area:
+36
+1 figure
+Triangle coordinates
+(0, 0)
+ (0, 3)
+ (3, 0)
+
+
+Center:
+(1, 1)
+Area:
+4.5
+2
+1
+Coordinates:
+Triangle coordinates
+(0, 0)
+ (0, 3)
+ (3, 0)
+
+Center:
+(1, 1)
+Area:
+4.5
