@@ -1,0 +1,61 @@
+Входные данные:
+create doc
+add triangle 0 0 2 2 0 2
+print
+undo
+print
+add
+square
+0 0 0 5 5 5 5 0
+delete 2
+undo print
+quit
+n
+
+Результат работы:
+create doc
+Enter name of new project
+Document doc is created
+add triangle 0 0 2 2 0 2
+Figure is added
+print
+=================================
+id - 1
+Figure - Triangle
+Area: 2
+Center: (0.666667, 1.33333)
+Triangle coordinates
+(0, 0)
+
+(2, 2)
+
+(0, 2)
+
+undo
+Undo done
+print
+add
+square
+0 0 0 5 5 5 5 0
+Figure is added
+delete 2
+enter ID of figure you fant to remove (you can see it in print): Figure with ID 2 is removed
+undo
+Undo done
+print
+=================================
+id - 2
+Figure - Square
+Area: 25
+Center: (2.5, 2.5)
+Square coordinates:
+(0, 0)
+
+(0, 5)
+
+(5, 5)
+
+(5, 0)
+
+quit
+You want save file? y/n: n

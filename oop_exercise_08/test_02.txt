@@ -1,0 +1,47 @@
+Входные данные:
+./a.out 3
+triangle 0 0 0 3 3 3
+square 0 0 0 3 3 3 3 0
+octagon 1 0 1 4 2 5 5 5 6 3 3 3 0 3 0 1
+
+Результат работы:
+=================================
+
+Figure - Triangle
+Area: 4.5
+Center: (1, 2)
+Triangle coordinates
+(0, 0)
+
+(0, 3)
+
+(3, 3)
+
+=================================
+
+Figure - Square
+Area: 9
+Center: (1.5, 1.5)
+Square coordinates:
+(0, 0)
+
+(0, 3)
+
+(3, 3)
+
+(3, 0)
+
+=================================
+
+Figure - Octagon
+Area: 6
+Center: (2.25, 3)
+Octagon coordinates:
+(1, 0)
+(1, 4)
+(2, 5)
+(5, 5)
+(6, 3)
+(3, 3)
+(0, 3)
+(0, 1)

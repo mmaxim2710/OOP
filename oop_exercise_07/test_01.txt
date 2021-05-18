@@ -1,0 +1,137 @@
+Входные данные:
+man
+create doc
+add
+triangle
+0 0 2 2 0 2
+add
+square
+0 0
+0 5
+5 5 
+5 0
+add
+octagon
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+print
+delete 3
+print
+save
+1
+quit
+n
+
+Результат работы:
+man
+create - create new document
+save - save document to file
+load - load document from file
+add - add figure
+print - print the document
+delete - delete figure by it`s ID
+undo - undo previous operation
+quit - close program and exit
+create doc
+Enter name of new project
+Document doc is created
+add
+triangle
+0 0 2 2 0 2
+Figure is added
+add
+square
+0 0
+0 5
+5 5
+5 0
+Figure is added
+add
+octagon
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+Figure is added
+print
+=================================
+id - 1
+Figure - Triangle
+Area: 2
+Center: (0.666667, 1.33333)
+Triangle coordinates
+(0, 0)
+
+(2, 2)
+
+(0, 2)
+
+=================================
+id - 2
+Figure - Square
+Area: 25
+Center: (2.5, 2.5)
+Square coordinates:
+(0, 0)
+
+(0, 5)
+
+(5, 5)
+
+(5, 0)
+
+=================================
+id - 3
+Figure - Octagon
+Area: 0
+Center: (1, 1)
+Octagon coordinates:
+(1, 1)
+(1, 1)
+(1, 1)
+(1, 1)
+(1, 1)
+(1, 1)
+(1, 1)
+(1, 1)
+delete 3
+enter ID of figure you fant to remove (you can see it in print): Figure with 
+ID 3 is removed
+print
+=================================
+id - 1
+Figure - Triangle
+Area: 2
+Center: (0.666667, 1.33333)
+Triangle coordinates
+(0, 0)
+
+(2, 2)
+
+(0, 2)
+
+=================================
+id - 2
+Figure - Square
+Area: 25
+Center: (2.5, 2.5)
+Square coordinates:
+(0, 0)
+
+(0, 5)
+
+(5, 5)
+
+(5, 0)
+
+man
+create - create new document
+save - save document to file
+load - load document from file
+add - add figure
+print - print the document
+delete - delete figure by it`s ID
+undo - undo previous operation
+quit - close program and exit
+save
+Enter name for savefile: 1
+Successfully saved in 1
+Saved successfully
+quit
+You want save file? y/n: n

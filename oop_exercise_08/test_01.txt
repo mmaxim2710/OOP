@@ -1,0 +1,32 @@
+Входные данные:
+./a.out 2
+triangle 0 0 2 2 0 2
+triangle 0 0 2 2 0 2
+
+Результат работы:
+./a.out 2
+triangle 0 0 2 2 0 2
+triangle 0 0 2 2 0 2
+=================================
+
+Figure - Triangle
+Area: 2
+Center: (0.666667, 1.33333)
+Triangle coordinates
+(0, 0)
+
+(2, 2)
+
+(0, 2)
+
+=================================
+
+Figure - Triangle
+Area: 2
+Center: (0.666667, 1.33333)
+Triangle coordinates
+(0, 0)
+
+(2, 2)
+
+(0, 2)
